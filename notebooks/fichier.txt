@@ -1,0 +1,21 @@
+## 1. Data acquisition
+
+The dataset used in this project is **House Prices: Advanced Regression Techniques**,
+available on Kaggle.
+
+- **Source:** Kaggle
+- **Link:** https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques
+- **Problem type:** Regression
+- **Target variable:** SalePrice
+
+The dataset is provided by Kaggle in two separate files:
+- `train.csv`: contains the input features and the target variable (`SalePrice`)
+- `test.csv`: contains only the input features (no target variable)
+
+In this project, only `train.csv` is used for data analysis, model training, and evaluation.
+The Kaggle `test.csv` file is not used for model evaluation because it does not contain
+the target variable. Model evaluation is performed using an internal train/test split
+on `train.csv`.
+
+The raw data files are stored in the following directory:
+
